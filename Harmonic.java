@@ -9,8 +9,7 @@ public class Harmonic {
 		System.out.print("Enter number for print Harmonic series: ");
 		int a = sc.nextInt();
 		for (int i = 1; i <= a; i++) {
-
-			System.out.print("1/" + i + " + ");
+        System.out.print("1/" + i + " + ");
 			harmonic += (float) 1 / i;
 		}
 		System.out.println();
