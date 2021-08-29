@@ -1,18 +1,18 @@
 package javaprograms;
 
-	import java.util.Scanner;
-	public class power {
-	
-	    public static void main(String[] args) {
-	        int a = 1,i;
-	        System.out.print("Enter value for print table of power of 2: ");
-	        Scanner sc = new Scanner(System.in);
-	        Long b=sc.nextLong();
+import java.util.Scanner;
 
-	        for ( i = 1;i<=b; i++) {
-	            a = a * 2;
-	            System.out.println("2 ^ " + i + " = " + a);
-	        }
-	    }
+public class power {
+
+	public static void main(String[] args) {
+		int a = 1, i;
+		System.out.print("Enter value for print table of power of 2: ");
+		Scanner sc = new Scanner(System.in);
+		Long b = sc.nextLong();
+
+		for (i = 1; i <= b; i++) {
+			a = a * 2;
+			System.out.println("2 ^ " + i + " = " + a);
+		}
 	}
-
+}
